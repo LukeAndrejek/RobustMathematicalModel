@@ -7,7 +7,7 @@ clear all
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Control how frequently the functions are plotted
-plotGap = 58;
+plotGap = 24;
 
 % Set noise parameters
 noiseHC = 0;
@@ -46,26 +46,26 @@ err = 1e-7;
 % Model Parameter Values
 
 % Diffusion constants
-DT = 9;
-DM = 9;
+DT = 50;
+DM = 50;
 
 % Degredation constants
-dH = 0.15 * c;
-dS = 0.15 * c;
-dT = 0.1 * c;
-dM = 0.1 * c;
-dR = 0.15 * c;
-dK = 0.15 * c;
-dW = 0.15 * c;
+dH = 0.6 * c;
+dS = 0.6 * c;
+dT = 0.6 * c;
+dM = 0.6 * c;
+dR = 0.6 * c;
+dK = 0.6 * c;
+dW = 0.6 * c;
 
 % Source constants
-sigmaH = 43 * dH * c;
-sigmaS = 6 * dS * c;
-sigmaT = 1.58;
-sigmaM = 45.3;
-sigmaR = 10 * dR * c;
-sigmaK = 14 * dK * c;
-sigmaW = 5 * dW * c;
+sigmaH = 43 * dH;
+sigmaS = 6 * dS;
+sigmaT = 8.635;
+sigmaM = 223.2;
+sigmaR = 10 * dR;
+sigmaK = 14 * dK;
+sigmaW = 5 * dW;
 
 % Interaction constants
 kHM = 1;
